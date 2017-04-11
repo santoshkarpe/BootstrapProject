@@ -1,3 +1,0 @@
-INDEX VERSION 1.127
-C:\login_ws\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2737799629.index
-\LoginApp\src\main\java
