@@ -62,7 +62,7 @@
                     <li><a href="contactus.html">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">                    
-                    <li><a data-toggle="modal" data-target="#loginModal">                    
+                    <li><a id="login-link">                    
                         <span class="glyphicon glyphicon-log-in"></span> Login</a>                    
                     </li>                
                 </ul>
@@ -412,6 +412,9 @@
                     $("#mycarousel").carousel('cycle');            
                 });        
             });    
+            $("#login-link").click(function() {
+                $("#loginModal").modal('show');
+            });
     </script>
 </body>
 
